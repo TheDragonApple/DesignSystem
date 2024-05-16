@@ -17,6 +17,15 @@ h2{
     text-align: center;
 }
 
+h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+p1{
+    font-size: 16px;
+}
+
 nav{
     text-align: center;
 }
@@ -31,7 +40,7 @@ section{
     border: 2px solid;
     border-color: #7D7F7C;
     width: 90%;
-    margin: auto;
+    margin: 10px auto;
 }
 
 .colors div{
@@ -66,4 +75,49 @@ section{
 .maroon{
     background-color: #800000;
     color: white;
+}
+
+
+.fonts div{
+    display: inline-block;
+    width: 30%;
+    padding: 5px 25px;
+}
+
+.font1 h3{
+    font-family: "Source Code Pro";
+    text-decoration: underline;
+}
+
+.font1 p1{
+    display: block;
+    font-family: "Source Code Pro";
+    padding: 10px;
+}
+
+.font2 h3{
+    text-decoration: underline;
+}
+
+.font2 p1{
+    display: block;
+    padding: 10px;
+}
+
+.font3 h3{
+    font-family: "Poppins";
+    text-decoration: underline;
+}
+.font3 p1{
+    display: block;
+    font-family: "Poppins";
+    padding: 10px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
 }

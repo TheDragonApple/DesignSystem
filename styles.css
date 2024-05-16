@@ -13,6 +13,10 @@ h1{
     padding: 25px;
 }
 
+h2{
+    text-align: center;
+}
+
 nav{
     text-align: center;
 }
@@ -21,4 +25,45 @@ nav{
     display: inline;
     padding: 0 200px;
     font-size: 25px;
+}
+
+section{
+    border: 2px solid;
+    border-color: #7D7F7C;
+    width: 90%;
+    margin: auto;
+}
+
+.colors div{
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 20%;
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+
+.colors p1{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.lightblue{
+    background-color: #ADD8E6;
+}
+
+.gray{
+    background-color: #7D7F7C;
+    color: white;
+}
+
+.lightpink{
+    background-color: #FFD1DF;
+}
+
+.maroon{
+    background-color: #800000;
+    color: white;
 }

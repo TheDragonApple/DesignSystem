@@ -1,0 +1,140 @@
+*{
+    font-family: "Nunito Sans";
+}
+
+.banner{
+    display: block;
+    height: 100px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.banner h1{
+    padding: 25px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 26px;
+}
+
+h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+p1{
+    font-size: 16px;
+}
+
+nav{
+    text-align: center;
+}
+
+.nav li{
+    display: inline;
+    padding: 0 200px;
+    font-size: 25px;
+}
+
+section{
+    border: 2px solid;
+    border-color: #7D7F7C;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.colors div{
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 20%;
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+
+.colors p1{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.lightblue{
+    background-color: #ADD8E6;
+}
+
+.gray{
+    background-color: #7D7F7C;
+    color: white;
+}
+
+.lightpink{
+    background-color: #FFD1DF;
+}
+
+.maroon{
+    background-color: #800000;
+    color: white;
+}
+
+
+.fonts div{
+    display: inline-block;
+    width: 30%;
+    padding: 5px 25px;
+}
+
+.font1 h3{
+    font-family: "Source Code Pro";
+    text-decoration: underline;
+}
+
+.font1 p1{
+    display: block;
+    font-family: "Source Code Pro";
+    padding: 10px;
+}
+
+.font2 h3{
+    text-decoration: underline;
+}
+
+.font2 p1{
+    display: block;
+    padding: 10px;
+}
+
+.font3 h3{
+    font-family: "Poppins";
+    text-decoration: underline;
+}
+.font3 p1{
+    display: block;
+    font-family: "Poppins";
+    padding: 10px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.text-style-content h2{
+    text-align: justify;
+}
+
+.text-styles div{
+    display: inline-block;
+    width: 30%;
+    padding: 5px 25px;
+}
